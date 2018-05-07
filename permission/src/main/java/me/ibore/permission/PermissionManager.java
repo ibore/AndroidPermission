@@ -14,8 +14,6 @@ import me.ibore.permission.interf.IPermission;
 
 public class PermissionManager {
 
-    private static final String TAG = "PermissionManager";
-
     public static void PermissionRequest(final Object object, String[] permissions, int requestCode) {
         Context context = null;
         if (object instanceof Context) {

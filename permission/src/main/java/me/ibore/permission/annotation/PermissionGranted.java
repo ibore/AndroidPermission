@@ -9,8 +9,7 @@ import java.lang.annotation.Target;
 @Target(ElementType.METHOD)
 public @interface PermissionGranted {
 
-//    String[] value();
-//
 //    int requestCode() default 0;
+
 }
 

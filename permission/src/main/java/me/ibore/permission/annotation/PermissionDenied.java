@@ -9,7 +9,6 @@ import java.lang.annotation.Target;
 @Target(ElementType.METHOD)
 public @interface PermissionDenied {
 
-//    String[] value();
-//
 //    int requestCode() default 0;
+
 }

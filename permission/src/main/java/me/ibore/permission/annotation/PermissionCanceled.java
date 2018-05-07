@@ -9,5 +9,6 @@ import java.lang.annotation.Target;
 @Target(ElementType.METHOD)
 public @interface PermissionCanceled {
 
-    int requestCode() default 0;
+//    int requestCode() default 0;
+
 }

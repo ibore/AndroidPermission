@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void callPhone(){
-        PermissionManager.PermissionRequest(this, new String[]{Manifest.permission.CALL_PHONE,Manifest.permission.CAMERA},10);
+        PermissionManager.PermissionRequest(this, new String[]{Manifest.permission.CALL_PHONE, Manifest.permission.CAMERA},10);
     }
 
     private void callMap(){
@@ -138,8 +138,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @PermissionCanceled
-    public void onPermissionCanceled(int requestCode) {
-        Toast.makeText(this, "requestCode:" + requestCode, Toast.LENGTH_SHORT).show();
+    public void onPermissionCanceled() {
+        Toast.makeText(this, "requestCode:", Toast.LENGTH_SHORT).show();
     }
 
 
